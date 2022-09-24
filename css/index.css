@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap');
+body{
+    color:#192F60;    
+}
+.color1{
+    color:#8C96AB;
+}
+.color{
+    color:#8C96AB;
+    font-size:16px;
+}
+.color2{
+    color:#192F60; 
+}
+section{   
+    width:80%;
+}
+.place{
+    color:#636F88; 
+    border:none;
+    border-radius:0;     
+}
+
+.place::-webkit-input-placeholder {
+    color:#636F88;
+  }
+  input:focus{
+    outline:none;
+  }
+.bgimg{
+    background-image: url('../images/img.png');
+    height:480px;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+   background-size:1519px auto;
+}
+.e{
+    height:150px;
+    width:150px;
+}
+.p{
+    font-size:75px;
+}
+
+.card{
+    height:160px;
+   width:400px;      
+   box-shadow: 0px 3px 6px #00000029;
+}
+
+.card-body{
+    width:140px;
+}
+
+.modal-body{
+    height:200px !important;
+}
+.button{
+    width:100%;    
+}

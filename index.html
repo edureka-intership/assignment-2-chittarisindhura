@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bootstrap Assignment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <!-- <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" /> -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <div class="bgimg">
+    <div class="d-flex justify-content-end pt-3 pe-5 me-5">
+      <a class="text-white text-decoration-none me-3 p-2" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+        aria-hidden="true">Login</a>
+      <button class="text-white bg-transparent p-2 border border-white">
+        Create an Account
+      </button>
+    </div>
+    <div class="e text-center p-auto m-auto align-middle rounded-circle bg-white">
+      <p class="p align-middle pt-2 text-danger fw-bold m-auto">e!</p>
+    </div>
+    <h1 class="text-white text-center pt-2">
+      Find the best restaurants, cafes and bars
+    </h1>
+
+    <div class="container">
+      <div class="d-flex justify-content-center gap-3 align-items-center">
+        <div>
+          <div>
+            <input class="p-2 place" type="text" size="25" placeholder="Please type a location" />
+          </div>
+        </div>
+        <div>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text color place">
+                <i class='fa fa-search p-2 '></i>
+              </span>
+            </div>
+            <input type="search" class="p-2 place" size="50" placeholder="Search for restaurants" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="bg-light pt-4 pb-4 shadow-sm m-auto">
+    <div class="container">
+      <div class="row pt-3 pb-2">
+        <div class="col-12">
+          <h2>Quick Searches</h2>
+          <p class="color1">Discover restaurants by type of meal</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 mb-4 d-flex align-items-stretch">
+          <div class="card d-flex flex-row">
+            <img src="images/img-1.png" class="card-img-left" alt="Card Image" height="160px" width="160px">
+            <div class="card-body p-4 d-flex flex-column justify-content-center">
+              <h5 class="card-title">Breakfast</h5>
+              <p class="card-text color">Start your day with exclusive breakfast options</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 d-flex">
+          <div class="card  d-flex flex-row">
+            <img src="images/img-2.png" alt="Card Image" height="160px" width="160px">
+            <div class=" card-body d-flex flex-column p-4">
+              <h5 class="card-title">Lunch</h5>
+              <p class="card-text color">Start your day with exclusive breakfast options</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 d-flex">
+          <div class="card  d-flex flex-row">
+            <img src="images/img-3.png" alt="Card Image" height="160px" width="160px">
+            <div class="card-body d-flex flex-column p-4">
+              <h5 class="card-title">Snacks</h5>
+              <p class="card-text color">Start your day with exclusive breakfast options</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 mb-3 d-flex">
+          <div class="card d-flex flex-row">
+            <img src="images/img-4.png" class="card-img-left" alt="Card Image" height="160px" width="160px">
+            <div class="card-body d-flex flex-column p-4">
+              <h5 class="card-title">Dinner</h5>
+              <p class="card-text color">Start your day with exclusive breakfast options</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-3 d-flex">
+          <div class="card  d-flex flex-row">
+            <img src="images/img-5.png" alt="Card Image" height="160px" width="160px">
+            <div class="card-body d-flex flex-column p-4">
+              <h5 class="card-title">Drinks</h5>
+              <p class="card-text color">Start your day with exclusive breakfast options</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-3 d-flex">
+          <div class="card  d-flex flex-row">
+            <img src="images/img-6.png" alt="Card Image" height="160px" width="160px">
+            <div class="card-body d-flex flex-column p-4">
+              <h5 class="card-title">Nightlife</h5>
+              <p class="card-text color">Start your day with exclusive breakfast options</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title ms-3" id="exampleModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <div class="container">
+            <button class="button ps-5  pe-5 pt-1 pb-1 mb-3 color2 border rounded-1"><i
+                class='fa fa-envelope pe-2 text-danger'></i>Continue with
+              Gmail</button>
+            <button class="button ps-5 pe-5 pt-1 pb-1 mb-3 color2 border rounded-1"><i
+                class='fa fa-facebook-f pe-2 text-primary'></i>Continue with
+              Facebook</button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p class="m-auto">Don't you have account? <a class="text-danger text-decoration-none" data-bs-toggle="modal"
+              data-bs-target="#exampleModal1" aria-hidden="true" href="#">Sign up</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title ms-3" id="exampleModalLabel">Sign Up</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <div class="container">
+            <button class="button ps-5  pe-5 pt-1 pb-1 mb-3 color2 border rounded-1"><i
+                class='fa fa-envelope pe-2 text-danger'></i>Continue with
+              Gmail</button>
+            <button class="button ps-5 pe-5 pt-1 pb-1 mb-3 color2 border rounded-1"><i
+                class='fa fa-facebook-f pe-2 text-primary'></i>Continue with
+              Facebook</button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p class="m-auto">Already have an account? <a class="text-danger text-decoration-none" data-bs-toggle="modal"
+              data-bs-target="#exampleModal" aria-hidden="true" href="#">Login</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
